@@ -7,7 +7,7 @@ use Mix.Config
 
 # Configures the endpoint
 config :elixirApp, ElixirApp.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "127.0.0.1"],
   root: Path.dirname(__DIR__),
   secret_key_base: "h4b1MDv17xLc2AwfiKcjCHjOnYlFhCSowHHUMGYePqXzvTfQKZSZVsdtdk2wyDi8",
   render_errors: [accepts: ~w(html json)],

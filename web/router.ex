@@ -16,7 +16,7 @@ defmodule ElixirApp.Router do
   scope "/", ElixirApp do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/loaderio-8bb397278d712441ad9d9dab8f444bab.html", PageController, :index
   end
 
   # Other scopes may use custom stacks.
